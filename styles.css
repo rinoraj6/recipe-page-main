@@ -124,7 +124,7 @@ html, body{
 }
 .prep-time .container .timings li{
     padding-left: 1.4rem;
-    margin-bottom: .8rem;
+    margin-bottom: .4rem;
     font-family: var(--outfit);
     font-weight: 400;
     color: var(--DarkCharcoal);
