@@ -35,16 +35,6 @@ html, body{
     font-family: 'Young Serif', serif;    
     background-color: var(--Eggshell);
 }
-/* design measures */
-    /* 
-        full width of the design : 1440px;
-        width of the main white area: 740px; 
-        width of the recepie image: 656px;
-        body top margin to main white area height: 122px;
-        body left margin to main white area width: 352px;
-    
-    */
-/* end  */
 
 
 
@@ -63,9 +53,9 @@ html, body{
 /* main end */
 
 /* recipe-img-box start */
-    .recipe-img-box .container{
+    /* .recipe-img-box .container{ */
         /* max-width: 656px; */
-    }
+    /* } */
     .recipe-img-box .container img{
         border-radius: .8rem;
     }
@@ -75,6 +65,7 @@ html, body{
 /* recipe-details start */
     .recipe-details{
         margin-top: 3rem;
+        
     }
     .recipe-details .container{
         display: flex;
@@ -105,7 +96,7 @@ html, body{
 
 /* prep time start */
 .prep-time{
-    margin-top: 3rem;
+    margin-top: 2rem;
     background-color: var(--RoseWhite);
     border-radius: .5rem;
 }
@@ -205,10 +196,21 @@ h2{
 }
 
 .nutrition-table{
-
+    margin-top: 1.1rem;
     width: 100%;
+    border-collapse: collapse;
     
 }
+td{
+    padding: 1.1rem; 
+}
+tr{
+    border-bottom: 1px solid var(--LightGrey);
+}
+tr:last-child{
+    border-bottom: none;
+}
+
 
 .nutrition-name{
     font-family: var(--outfit);
@@ -217,7 +219,7 @@ h2{
     padding-left: 2rem;
 }
 .nutrition-value{
-    font-family: var(--youngSerif);
+    font-family: var(--outfit);
     font-weight: 400;
     color: var(--Nutmeg);
 }
@@ -240,10 +242,12 @@ h2{
     .recipe-details .container {
         padding: 1.8rem;
         padding-bottom: 0;
+        padding-top: 0;
     }
     .recipe-details .container h1{
         font-size: xx-large;
         text-align: left;
+        line-height: 1;
         
     }
     .recipe-details .container p{
@@ -252,22 +256,31 @@ h2{
     }
     .prep-time{
         width: 90%;
-        margin: 2rem auto;
+        margin: 2rem auto 0 auto;
+        
     }
     .prep-time .container .timings{
         padding-right: 1rem;
+        
+    }
+    .ingredients {
+        margin: 0;
     }
     .ingredients .container{
-        padding: 1.8rem;
+        padding: 1.8rem 1.8rem 0 1.8rem;
+        
     }
     .ingredient-list li{
         padding: 0; 
     }
     .instructions .container {
         padding: 1.8rem;
+        margin-top: 0;
+        
     }
     .nutrition .container{
-        padding: 1.8rem;
+        padding: 0 1.8rem;
         margin-top: 0;
+        
     }
 }
