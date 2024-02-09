@@ -78,6 +78,7 @@ html, body{
         font-weight: 400;
         letter-spacing: 1px;
         color: var(--DarkCharcoal);
+        font-size: xx-large;
     }
 
     .recipe-details .container p{
@@ -100,10 +101,12 @@ html, body{
     margin-top: 2rem;
     background-color: var(--RoseWhite);
     border-radius: .5rem;
+    
 }
 .prep-time .container {
     padding: 1.8rem;
-    
+    padding-bottom: .8rem;
+    /* border: 1px solid; */
 }
 .prep-time .container p{
     color: var(--Nutmeg);
