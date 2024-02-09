@@ -89,7 +89,7 @@ html, body{
         line-height: 1.6;
         font-size: .95rem;
     }
-    
+
     
     
 /* recipe-details end*/
@@ -121,7 +121,7 @@ html, body{
 }
 .prep-time .container .timings li{
     padding-left: 1.4rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: .8rem;
     font-family: var(--outfit);
     font-weight: 400;
     color: var(--DarkCharcoal);
